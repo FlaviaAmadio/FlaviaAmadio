@@ -1,0 +1,58 @@
+/* Sage green background, Times New Roman font, readable size */
+:root {
+  --bg: #9caf88;   /* sage green */
+  --card: #fff;    /* white cards */
+  --muted: #444;
+  --accent: #0b66c2; /* blue for links/buttons */
+  --radius: 10px;
+}
+
+body {
+  background: var(--bg);
+  color: #222;
+  margin: 0;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 16px; /* ~12pt */
+  line-height: 1.6; /* makes paragraphs easier to read */
+}
+
+/* Cards on white background for contrast */
+.card {
+  background: var(--card);
+  border-radius: var(--radius);
+  padding: 1.2rem;
+  box-shadow: 0 6px 18px rgba(20,20,30,0.06);
+  margin-bottom: 1.25rem;
+}
+
+/* Navigation links */
+.nav a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 1rem;
+  font-size: 1rem;
+}
+
+.nav a:hover,
+.nav a.active {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+/* Buttons */
+.btn {
+  display: inline-block;
+  padding: .5rem .8rem;
+  border-radius: 8px;
+  background: var(--accent);
+  color: #fff;
+  text-decoration: none;
+  margin-right: .5rem;
+}
+
+.btn.ghost {
+  background: transparent;
+  color: var(--accent);
+  border: 1px solid rgba(11,102,194,.4);
+}
+
