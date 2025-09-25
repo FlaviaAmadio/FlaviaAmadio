@@ -1,43 +1,18 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Flavia Amadio</title>
-  <meta name="description" content="Flavia Amadio — Data Scientist with a Background in Exoplanet Research" />
-  <link rel="stylesheet" href="styles.css" />
-</head>
-<body>
-  <header class="site-header">
-    <div class="wrap">
-      <h1 class="name">Flavia Amadio</h1>
-      <nav class="nav">
-        <a href="about.html">About</a>
-        <a href="coding.html">Coding</a>
-        <a href="research.html">Research</a>
-        <a href="contact.html">Contact</a>
-      </nav>
-    </div>
-  </header>
+---
+layout: default
+title: Home
+---
 
-  <main class="wrap">
-    <section class="card hero">
-      <h2>Welcome</h2>
-      <p class="lead">
-        I’m a <strong>Data Scientist</strong> passionate about sustainability and planetary conservation.  
-        Explore my <a href="about.html">background</a>, <a href="research.html">research</a>, and <a href="coding.html">coding projects</a>.
-      </p>
-      <p>
-        <a class="btn" href="CV-FlaviaAmadio.pdf" download>Download resume</a>
-        <a class="btn ghost" href="https://github.com/FlaviaAmadio" target="_blank" rel="noopener">View GitHub</a>
-      </p>
-    </section>
-  </main>
-
-  <footer class="site-footer">
-    <div class="wrap">
-      <small>&copy; 2025 Flavia Amadio — built with ♥ on GitHub Pages</small>
-    </div>
-  </footer>
-</body>
-</html>
+<section class="card hero">
+  <h2>Welcome</h2>
+  <p class="lead">
+    I’m a <strong>Data Scientist</strong> passionate about sustainability and planetary conservation.  
+    Explore my <a href="{{ '/about.html' | relative_url }}">background</a>, 
+    <a href="{{ '/research.html' | relative_url }}">research</a>, and 
+    <a href="{{ '/coding.html' | relative_url }}">coding projects</a>.
+  </p>
+  <p>
+    <a class="btn" href="CV-FlaviaAmadio.pdf" download>Download resume</a>
+    <a class="btn ghost" href="https://github.com/FlaviaAmadio" target="_blank" rel="noopener">View GitHub</a>
+  </p>
+</section>
