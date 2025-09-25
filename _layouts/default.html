@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>{{ page.title }} — {{ site.title }}</title>
+
+  <!-- Theme CSS -->
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <!-- Your custom CSS overrides -->
+  <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
+</head>
+<body>
+  {% include header.html %}
+
+  <main class="wrap">
+    {{ content }}
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <small>&copy; {{ site.time | date: "%Y" }} {{ site.title }}</small>
+    </div>
+  </footer>
+</body>
+</html>
