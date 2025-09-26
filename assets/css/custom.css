@@ -1,9 +1,9 @@
-/* Sage green background, Times New Roman font, readable size */
+
 :root {
   --bg: #9caf88;   /* sage green */
   --card: #b8c9a5;    /* light sage green */
   --muted: #444;
-  --accent: #5a6649; /* blue for links/buttons */
+  --accent: #6b7c59; /* dark sage links/buttons */
   --radius: 10px;
 }
 
@@ -16,7 +16,7 @@ body {
   line-height: 1.6; /* makes paragraphs easier to read */
 }
 
-/* Cards on white background for contrast */
+/* Cards on background colour */
 .card {
   background: var(--bg);
   border-radius: var(--radius);
