@@ -1,24 +1,24 @@
-/* Sage green background, Times New Roman font, readable size */
+
 :root {
   --bg: #9caf88;   /* sage green */
-  --card: #fff;    /* white cards */
+  --card: #b8c9a5;    /* light sage green */
   --muted: #444;
-  --accent: #0b66c2; /* blue for links/buttons */
+  --accent: #6b7c59; /* dark sage links/buttons */
   --radius: 10px;
 }
 
 body {
   background: var(--bg);
   color: #222;
-  margin: 0;
+  margin: 2em;
   font-family: "Times New Roman", Times, serif;
-  font-size: 16px; /* ~12pt */
+  font-size: 18px; /* ~12pt */
   line-height: 1.6; /* makes paragraphs easier to read */
 }
 
-/* Cards on white background for contrast */
+/* Cards on background colour */
 .card {
-  background: var(--card);
+  background: var(--bg);
   border-radius: var(--radius);
   padding: 1.2rem;
   box-shadow: 0 6px 18px rgba(20,20,30,0.06);
