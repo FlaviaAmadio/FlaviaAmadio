@@ -8,8 +8,11 @@ title: Research
   <div class="grid">
 
     <article class="project-card">
-      <h3>Master’s Thesis: Effect of Stellar Activity on Exoplanet Transit Depth <span class="meta">2019</span></h3>
-      <p>Explored how stellar surface phenomena influence exoplanet transit depth measurements, using data from Universitat Autònoma de Barcelona and advanced statistical modeling in Python. Built pipelines for data cleaning, feature extraction, and signal-to-noise optimization — workflows that mirror real-world data science tasks.</p>
+      <h3>Master’s Thesis:Study of stellar activity impact on spectroscopic measurements of transiting exoplanets with ARIEL<span class="meta">2019</span></h3>
+      <p>My research focused on improving the accuracy of exoplanet observations by studying how variability in stars can bias transit measurements. When a planet passes in front of its host star, it blocks a small fraction of starlight, allowing us to estimate the planet’s radius and probe its atmosphere. However, stars are not constant light sources — they have spots, flares, and other activity that can distort these measurements and lead to incorrect conclusions about the planet. </p>
+In my work, I studied the super-Earth GJ-1214b and its M-dwarf host star, a type of star that makes up about 70% of our Galaxy and is known to be cooler and more active than our Sun. I focused on the effect of unocculted starspots (regions on the stellar surface not crossed by the planet during transit), which can mimic or alter the signal from the planet’s atmosphere.</p>
+To investigate this, I first used a forward model of stellar activity (<a href="https://www.aanda.org/articles/aa/full_html/2016/02/aa25369-14/aa25369-14.html" target="_blank">Starsim-2</a></strong>) to simulate light curves and identify correlations between transit depth variations and stellar color indices. Building on these insights, I then developed my own statistical model based on synthetic stellar spectra (<a href="https://www.aanda.org/articles/aa/full_html/2013/05/aa19058-12/aa19058-12.html" target="_blank">Phoenix</a></strong>) to explore the parameter space of stellar activity — such as spot coverage, spot temperatures, and photosphere temperature. Finally, I applied a Markov Chain Monte Carlo (MCMC) approach to test the model’s ability to recover stellar parameters and correct the biases in observed transit depths. </p>
+These techniques are designed to support current and future space missions, such as JWST and ESA’s ARIEL mission, where understanding and correcting stellar variability is essential to accurately characterize exoplanet atmospheres and internal compositions</p>
     </article>
 
     <article class="project-card">
